@@ -1,0 +1,8 @@
+{
+	"name": "candidatos-facebook-data",
+	"version": "0.0.1",
+	"private": true,
+	"devDependencies": {
+		"dsv": "0.x"
+	}
+}
