@@ -1,14 +1,15 @@
 {
 	"name": "candidatos-facebook-costa-rica",
 	"datapackage_version": "1.0-beta.5",
-	"title": "Iniciativas Populares de Costa Rica",
-	"description": "Base de datos de iniciativas de ley populares de Costa Rica.",
+	"title": "'Likes' y posts de candidatos elecciones 2014 en Costa Rica en Facebook",
+	"description": "Base de datos de 'likes' de posts de los candidatos en los elecciones de 2014 de Costa Rica.",
 	"version": "0.0.1",
 	"keywords": [
 		"costa rica",
 		"candidatos",
 		"elecciones",
-		"facebook"
+		"facebook",
+		"likes"
 	],
 	"licenses": [
 		{
