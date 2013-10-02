@@ -1,0 +1,52 @@
+{
+	"name": "candidatos-facebook-costa-rica",
+	"datapackage_version": "1.0-beta.5",
+	"title": "Iniciativas Populares de Costa Rica",
+	"description": "Base de datos de iniciativas de ley populares de Costa Rica.",
+	"version": "0.0.1",
+	"keywords": [
+		"costa rica",
+		"candidatos",
+		"elecciones",
+		"facebook"
+	],
+	"licenses": [
+		{
+			"id": "odc-by",
+			"url": "http://opendatacommons.org/licenses/by/1.0/",
+			"name": "Open Data Commons Attribution License",
+			"version": "1.0"
+		}
+	],
+	"contributors":[
+		{
+			"name": "Matthew Russell",
+			"email": "matthew@zaffra.com"
+		},
+		{
+			"name": "Michael Herradora",
+			"email": "michael.herradora@nacion.com"
+		},
+		{
+			"name": "Juan F Lara",
+			"email": "jlara@nacion.com"
+		}
+	],
+	"maintainers": [
+		{
+			"name": "Matthew Caruana Galizia",
+			"email": "m@m.cg",
+			"web": "http://m.cg/"
+		}
+	],
+	"resources": [
+		{
+			"path": "data/csv/candidatos-facebook.csv",
+			"format": "csv"
+		},
+		{
+			"path": "data/json/candidatos-facebook.json",
+			"format": "json"
+		}
+	]
+}
