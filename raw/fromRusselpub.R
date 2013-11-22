@@ -3,7 +3,7 @@
 library(rjson)
 
 #####
-#	Generamos un objeto tipo lista para guardar la data del archivos tipo json en el
+#	Generamos un objeto tipo lista para guardar la data de los archivos tipo json
 json_data <- list()
 
 #####
@@ -22,7 +22,7 @@ library(plyr)
 
 #####
 #	Despues de analizar las variables en los archivos json
-#	Extraemos las variables que se consideran significativas para esta primera etapa de análisis
+#	Extraemos las variables que se consideran de interés para esta segunda etapa de análisis
 for(i in 1:length(filelist)){
 	for(k in 1:length(json_data[[i]]$data)){
 		print(paste(i,"con",k))
@@ -66,11 +66,11 @@ for(i in 1:length(filelist)){
 }
 
 #####
-#	Por la forma acumulativa en que se acumula la data tenemos que eliminar las duplicidades de la base de datos
+#	Por la forma en que se acumula la data tenemos que eliminar las duplicidades de la base de datos
 data <- unique(data)
 
 #####
-#	Exportamos la data para trabajo en excel
+#	Exportamos la data para trabajo en algún sistema de hojas de cálculo
 write.csv(data,"data.csv")
 
 #####
@@ -86,7 +86,7 @@ forCats <- data[!is.na(data$message),]
 
 #####
 #	Hacemos un objeto para cada candidato
-forRH <- forCats[forCats$from_name == "Dr. Rodolfo Hernández",]
+forRP <- forCats[forCats$from_name == "Rodolfo Piza 2014",]
 forJA <- forCats[forCats$from_name == "Johnny Araya",]
 forJV <- forCats[forCats$from_name == "José María Villalta Florez-Estrada",]
 forLS <- forCats[forCats$from_name == "Luis Guillermo Solís Rivera",]
