@@ -14,7 +14,7 @@ Las instrucciones que siguen a continuación parten de que se tiene instalada al
 2. Procesar la información recolectada haciendo uso del script de R:
 https://github.com/mherradora/candidatos-facebook-data/blob/master/raw/fromRusselpub.R 
 
-3. Si bien el archivo de R le permite realizar ciertos gráficos, para la mayoría de las personas se recomienda el procesamiento en algún software para hojas de cálculo.
+Si bien el archivo de R le permite realizar ciertos gráficos, para la mayoría de las personas se recomienda el procesamiento en algún software para hojas de cálculo.
 
 ## Licencia ##
 
